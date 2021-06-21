@@ -1,0 +1,114 @@
+/* BANNER */
+.banner {
+	color: #fff;
+	background-image: url(../images/header.jpg);
+	background-repeat: none;
+	background-position: center;
+	background-size: cover;
+	min-height: 100vh;
+}
+
+.header {
+	min-height: 180px;
+}
+
+
+
+.nav-link {
+	color: #fff;
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.nav-link:hover {
+	background-color: black;
+	color: #fff;
+}
+/* BANNER */
+
+/* EFFECTS */
+.item-name:hover {
+	background-color: black;
+}
+/* EFFECTS */
+
+/* BANNER CONTENT */
+.intro h3 {
+	font-family: 'Kirang Haerang', cursive;
+	font-weight: 400;
+	font-size: 3.5rem;
+}
+
+.intro h1 {
+	font-family: 'Kirang Haerang', cursive;
+	font-weight: 300;
+	font-size: 6.5rem;
+	text-transform: uppercase;
+}
+
+
+.feature-prod {
+	margin-top: 150px;
+}
+
+.contents {
+	padding: 10px;
+	color: #fff;
+}
+/* BANNER CONTENT */
+
+
+/* ROW CONTENTS */
+.r1-c1 {
+	background-position: center;
+	background-size: cover;
+	background-image: url(../images/header1.jpg);
+	min-height: 450px;
+}
+
+.r1-c2 {
+	background-position: center;
+	background-size: cover;
+	background-image: url(../images/header2.jpg);
+	min-height: 450px;
+}
+
+.row-title-1, .row-title-2 {
+	padding-top: 25px;
+	margin: 25px;
+	font-family: 'Kirang Haerang', cursive;
+}
+
+.row-title-3 {
+	padding-top: 25px;
+	padding: 25px;
+	font-family: 'Kirang Haerang', cursive;
+}
+
+.r2-c1 {
+	background-position: center;
+	background-size: cover;
+	background-image: url(../images/header1.jpg);
+	min-height: 450px;
+}
+.carousel-caption h3{
+	font-size: 3.5rem;
+}
+p{
+	font-size: 1.5rem;
+}
+.carousel-caption:hover {
+	background-color: black;
+}
+
+.r3-c1 {
+	background-position: center;
+	background-size: cover;
+	background-image: url(../images/sides.jpg);
+	min-height: 550px;
+}
+
+.third-row {
+	padding-top: 200px;
+}
+/* ROW CONTENTS */
