@@ -1,3 +1,18 @@
+/* DADDY BODY*/
+body {
+	background-color: #e7e7e7;
+}
+
+.body {
+	background-image: url(../images/header.jpg);
+}
+
+.content {
+	padding: 50px;
+}
+/* DADDY BODY*/
+
+
 /* BANNER */
 .banner {
 	color: #fff;
@@ -12,23 +27,59 @@
 	min-height: 180px;
 }
 
-
-
 .nav-link {
 	color: #fff;
 	font-size: 25px;
 	font-weight: 400;
 }
+.send-pm, .about-us {
+	font-family: 'Kirang Haerang', cursive;
+}
+label {
+	font-family: 'Kirang Haerang', cursive;
+}
+
+.form-label {
+	margin-left: 20px;
+	font-size: 25px;
+}
+
+.nav-contacts {
+	color: #000;
+	font-size: 25px;
+	font-weight: 400;
+}
 
 .nav-link:hover {
-	background-color: black;
+	background-color: rgb(0,0,0,0.5);
 	color: #fff;
 }
 /* BANNER */
 
 /* EFFECTS */
 .item-name:hover {
-	background-color: black;
+	background-color: rgba(0,0,0,0.5);
+	font-size: 70rem;
+	transition: ease-in-out 0.7s;
+}
+
+.intro h1:hover {
+	font-size: 7rem;
+	transition: ease-in-out 1s;
+}
+
+.carousel-caption:hover {
+	background-color: rgba(0,0,0,0.5);
+	transition: ease-in-out 0.7s;
+}
+
+.menu h1:hover{
+	font-size: 70px;
+	transition: ease-in-out 0.7s;
+}
+
+.pointer {
+	cursor: pointer;
 }
 /* EFFECTS */
 
@@ -37,6 +88,7 @@
 	font-family: 'Kirang Haerang', cursive;
 	font-weight: 400;
 	font-size: 3.5rem;
+	align-self: center;
 }
 
 .intro h1 {
@@ -44,7 +96,9 @@
 	font-weight: 300;
 	font-size: 6.5rem;
 	text-transform: uppercase;
+	align-self: center;
 }
+
 
 
 .feature-prod {
@@ -52,7 +106,6 @@
 }
 
 .contents {
-	padding: 10px;
 	color: #fff;
 }
 /* BANNER CONTENT */
@@ -88,27 +141,39 @@
 .r2-c1 {
 	background-position: center;
 	background-size: cover;
-	background-image: url(../images/header1.jpg);
+	background-image: url(../images/row2col2.jpg);
 	min-height: 450px;
 }
 .carousel-caption h3{
 	font-size: 3.5rem;
 }
+
+
 p{
 	font-size: 1.5rem;
 }
-.carousel-caption:hover {
-	background-color: black;
-}
 
-.r3-c1 {
-	background-position: center;
-	background-size: cover;
-	background-image: url(../images/sides.jpg);
-	min-height: 550px;
-}
+
 
 .third-row {
 	padding-top: 200px;
 }
+
+.selects {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.menu {
+	min-height: 250px;
+	font-family: 'Kirang Haerang', cursive;
+	cursor: pointer;
+}
+
+.menu h1 {
+	align-self: center;
+	font-size: 50px;
+}
+
+
 /* ROW CONTENTS */
