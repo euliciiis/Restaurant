@@ -60,26 +60,36 @@ label {
 .item-name:hover {
 	background-color: rgba(0,0,0,0.5);
 	font-size: 70rem;
-	transition: ease-in-out 0.7s;
+	transition: ease-in 0.7s ease-out 0.7s;
 }
 
 .intro h1:hover {
 	font-size: 7rem;
-	transition: ease-in-out 1s;
+	transition: ease-in 1s ease-out 1s;
 }
 
 .carousel-caption:hover {
 	background-color: rgba(0,0,0,0.5);
-	transition: ease-in-out 0.7s;
+	transition: ease-in 0.7s ease-out 0.7s;
 }
 
 .menu h1:hover{
 	font-size: 70px;
-	transition: ease-in-out 0.7s;
+	transition: ease-in 0.7s ease-out 0.7s;
 }
 
 .pointer {
 	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.burger:hover {
+	background-color: rgba(0,0,0,0.7);
+	transition: ease-in 0.7s ease-out 0.7s;
 }
 /* EFFECTS */
 
@@ -175,5 +185,29 @@ p{
 	font-size: 50px;
 }
 
-
 /* ROW CONTENTS */
+
+/* FOOTER */
+ul {
+	color: #fff;
+	list-style-type: none;
+	display: inline-flex;
+}
+
+li svg {
+	margin: 15px;
+	height: 30px;
+	width: 30px;
+	cursor: pointer;
+}
+
+footer h1 {
+	font-weight: 500;
+}
+
+footer span {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+/* FOOTER */
